@@ -20,10 +20,12 @@ function  depar_tamento(meal){
  }
 /*FUNCION CIUDAD*/
  function  ciu_dad(category){
-    if(category.length==0)
+    if(category.length==0  )
     { var mensaje3 = '*CAMPO OBLIGATORIO INGRESE UNA CIUDAD*';
     document.querySelector('.mensajea').innerHTML=mensaje3;     }
-        
+     else if(category.length>19)
+     { var mensaje3 = '*CAMPO OBLIGATORIO INGRESE UNA CIUDAD*';
+    document.querySelector('.mensajea').innerHTML=mensaje3;     }
     else {
         var mensaje3 = '';
     document.querySelector('.mensajea').innerHTML=mensaje3

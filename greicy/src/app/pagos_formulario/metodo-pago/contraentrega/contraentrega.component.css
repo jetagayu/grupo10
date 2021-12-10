@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #03A9F4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+  
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 120px;
+    height: 50px;
+    float: center;
+    padding: 8px;
+  
+  }
+  
+  
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 85px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size:20px;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+.fondo_formulario {
+    margin: 70px 180px ;
+    background: #24303c;
+    padding: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position:relative;
+
+}
+
+.form-register h2 {
+    margin: 20px 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    top:40%;
+    left:100% 
+}
+
+
+label{
+    font-size: 2rem;
+    text-align: justify;
+    margin: 5px;
+}
+
+table{
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+th{
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+td{
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.imagen {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+img{
+    width: 200px;
+    height: 170px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.box{
+    display: inline-block;
+    width: 60%;
+}
+
+.boton{
+    display: block;
+    width: 10%;
+    font-size: 20px;
+    padding: 16px;
+    margin: 20px 0;  
+    position: absolute;
+    top:80%;
+    left:50%;
+    color: #24303c;
+}
+
+.botontarjeta{
+    text-align: center;
+    margin: 50px 30px;
+    font-size: 2rem;
+    height:19px;
+    color: #24303c;
+}
+
+.register-input{
+    display: block;
+    width:80%;
+    background: none;
+    color: #f3f8fd;
+    padding: 5px;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #03A9F4;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.register-input:focus{
+    border-color: aqua;
+    outline: 0;
+}
+
+
+label{
+    font-size: 2rem;
+    text-align: justify;
+}

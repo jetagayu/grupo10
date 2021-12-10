@@ -1,0 +1,77 @@
+<title>Formulario inicial</title>
+
+<body>
+
+    <header>
+        <div class="menu">
+
+            <nav>
+                <ul>
+                    <li><a href="">Market Place </a> </li>
+                    <li><a href="">Inicio </a></li>
+                    <li><a href="">Usuario </a> </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <form action="" method="post" class="register">
+
+        <div class="fondo_formulario">
+            <div class="box">
+                <div class="">
+                    <h1>Detalles adicionales de su compra</h1>
+                    <h3>Domicilio de entrega</h3>
+                </div>
+
+                <div class="control">
+                    <input type="text" class="register-input" value="" name="direccion" placeholder="Direccion, Barrio">
+                </div>
+
+                <div class="control">
+                    <input type="text" class="register-input" value="" name="ciudad" placeholder="Ciudad, Departamento">
+                </div>
+
+                <h3>Fecha de entrega - Costo de envío</h3>
+                <label class=""><input type="checkbox" name="entregas1" value="rapido"> En 1 o 2 dias (Rapido) -
+                    Gratuito</label><br>
+                <label class=""><input type="checkbox" name="entregas2" value="normal"> De 3 a 5 dias habiles (Normal) -
+                    Gratuito
+                </label><br>
+            </div>
+
+            <div class="boton"><button (click)="recoger_datos()" class="register-button"
+                    onclick="Javascript:void(window.open('metodo-pago.component.html'));" type="submit"
+                    value="Continuar">Continuar</button></div>
+
+            <aside class="imagen">
+                <img src='assets/producto3.jpg' />
+
+                <h3>Nombre del producto</h3>
+                <label>Cantidad: 1</label>
+
+                <div id="main-container">
+                    <table>
+                        <tr>
+                            <TH>Total producto: </TH>
+                            <TD>$10.000</TD>
+                        </tr>
+
+                        <tr>
+                            <TH>Costo de envío: </TH>
+                            <TD>Gratuito</TD>
+                        </tr>
+
+                        <tr>
+                            <TH>Total a pagar: </TH>
+                            <TD>$10.000</TD>
+                        </tr>
+                    </table>
+
+
+                </div>
+            </aside>
+        </div>
+    </form>
+</body>

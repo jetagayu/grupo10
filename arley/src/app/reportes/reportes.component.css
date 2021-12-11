@@ -1,0 +1,108 @@
+.barra-navegacion{
+    width: 100%;
+    background-color: transparent;
+}
+.cuerpo-documento{
+    width: 100%;
+    height: 84vh;
+    background-color: transparent;
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 12vh;
+    width: 100%;
+}
+.div-contenedor{
+    background-color: #A9CCE3;
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+}
+.icono{
+    background-color: transparent;
+    margin: 10px 0 0 25px;
+    width: 100%;
+    height: 65px;
+}
+.barra-navegacion .div-contenedor a{
+    background-color: transparent;
+    width: 25%;
+}
+.contenedor-menu{
+    background-color: #F7DC6F;
+    width: 200px;
+    height: 40px;  
+    color: black;             
+    border: 2px solid transparent; 
+    border-radius: 4px;  
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 5%;
+}
+.icono-menu{
+    width: 20%;
+    height: 95%;
+    margin: auto;
+    display: inline-block;
+}
+.icono-menu img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.lista{    
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;   
+}
+.contenedor-menu:hover ul{
+    display: block;
+}
+.contenedor-menu ul{
+    list-style: none;
+    display: none;
+    position: relative;
+    background-color: white;
+    border: 5px solid white;
+    text-align: center;
+    margin: auto;
+    float: right;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.contenedor-menu li{
+    white-space: nowrap;
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+.contenedor-menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1% 15% 1% 15%;
+}
+.contenedor-menu li:hover{
+    background-color: gray;
+}

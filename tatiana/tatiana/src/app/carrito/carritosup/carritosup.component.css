@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+   
+   }
+   
+   #contenedor{
+    
+       width: 1400px;
+       height: 1400px;
+       background-color: rgb(10, 23, 63);
+       margin: 5em;
+       padding: 1em;
+       margin-block-start: 0.5em;
+       box-shadow: 7px 13px 37px #000;
+
+    
+       
+   
+   }
+   
+   #header{
+   
+       height: 10%;
+       margin: 1em;
+       margin-top: 60px;
+       border-radius: 20em;
+       font-size: 6rem;
+       text-align:center;
+       font-style:initial;
+       color: azure;
+       font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+       box-shadow: 7px 13px 37px rgb(22, 25, 34);
+       position:relative;
+              
+       
+
+              
+       
+   }
+   
+   #nav{
+   
+       height: 3%;
+       margin: 1em;
+       border-radius: 1em;
+       font-size: 4rem;
+       text-align:left;
+       font-style: italic;
+       color: azure;
+       font-family: 'calibri';
+
+   
+   }
+   
+   #contenido{
+   
+     height: 50%;
+     margin: 1em;
+     margin-left: 10em;
+   
+   }
+   
+   
+   .contenido ul{
+       width: 1000px;
+       margin: 0 auto;
+       margin-top: 10px;
+   
+   }
+   
+   .contenido ul li{
+   
+       float:auto;
+       width: 240px;
+       list-style: none;
+       height: 20%;
+       width: 75%;
+
+       
+   
+       
+   }
+   
+   .contenido ul li img{
+   
+       margin-left: 10px;
+       box-shadow: 7px 13px 37px rgb(22, 25, 34);
+       
+
+       
+       
+   }
+   
+   
+   
+   .nombre{
+   
+       font-size:medium;
+       font-variant-position:sub;
+       text-align:center;
+       font-family: cursive;
+       font-optical-sizing:initial;
+       color: azure;
+       font-family: 'calibri';
+       margin-top: 3em;
+   }
+   
+   
+   .contenido ul li p{
+       text-align: center;
+       font-size: medium;
+       font-style: normal;
+       font-display:initial;
+       color: azure;
+       font-family: 'calibri';
+       
+   }
+   
+   
+   .terminar{
+   
+       float: right;
+       margin: 15em;
+       padding-bottom: 1pt;
+       display: block;
+       text-align: center;
+       text-shadow: 0 1px rgba(255, 255, 255, 0.5); 
+       border-radius: 2px;
+       
+
+   }
+
+
+   .volver{
+   
+    float: left;
+    margin: 15em;
+    padding-bottom: 1pt;
+    display: block;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    border-radius: 2px; 
+
+}
+   
+   span{
+     
+       font-size: 3em;
+       font-variant-position: sub;
+       font-family: cursive;
+       color: azure;
+       font-family: 'calibri';
+       
+   
+   }
+   
+   
+   .arriba{
+   
+       float: none;
+       margin-right: 10em;
+       margin-top: 10em;
+       margin-left: 10em;
+       margin-bottom: 15em;
+   }
+   
+   .abajo{
+   
+       float: none;
+       margin-right: 10em;
+       margin-top: 10em;
+       margin-left: 10em;
+       margin-bottom: 15em;
+       
+   
+   }
+   
+     #footer{
+
+    height: 10%; 
+    margin: 10em;
+
+   }
+
+   .agregar{
+       
+    float: center;
+    margin: 1em;
+    padding-bottom: 1pt;
+    border-radius: 2px;
+
+     
+   }

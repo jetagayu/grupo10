@@ -1,0 +1,85 @@
+
+<meta charset="utf-8" />
+<!DOCTYPE html>
+<html lang="es">
+<app-barrahorizontalnavbar> </app-barrahorizontalnavbar>
+
+<head>
+  <title> carrito de compras </title>   
+</head>
+<body> 
+ <div id="contenedor">
+  <div id="header"> Carrito </div>
+   <div id="nav" ></div>
+    <div id="contenido" [formGroup]="agregarcarrito">
+     <div class= "row"> 
+      <div class="col-3">
+        <ul>
+            <li class="arriba" >
+                 <img src="/assets/imagenes/azucar.jpg" alt = "azucar" width = "100px" height = "100px" />
+                 <p class = "nombre" formControlName = "producto1" name="nombre" placeholder="nombre"  > AZUCAR </p>
+                 <input class= "cantidad" formControlName = "cantidad" name= "cantidad" placeholder="cantidad" class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                 <p> <span class="precio" formControlName = "precio" name="precio" placeholder="precio"> 2000  </span> <button (click)="agregar()" class="agregar"> Añadir al carrito </button> </p>
+            </li>
+            <li class="abajo">
+                <img src = "/assets/imagenes/queso.jpg" alt = "queso" width = "100px" height = "100px" />
+                <p class = "nombre" formControlName = "nombre" name="nombre" placeholder="nombre"> QUESO </p>
+                <input formControlName = "cantidad" name="cantidad" placeholder="cantidad"  class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                <p> <span formControlName = "precio " name="precio"  placeholder="precio"> 5000  </span> <button (click)="agregar()"  class="agregar"> Añadir al carrito </button> </p>
+           </li> 
+        </ul> 
+       </div>
+       <div class="col-3">
+         <ul>  
+           <li class="arriba">
+                 <img src = "/assets/imagenes/pan.jpg" alt = "pan" width = "100px" height = "100px" />
+                 <p class = "nombre" formControlName = "nombre" name="nombre" placeholder="nombre"> PAN </p>
+                 <input formControlName = "cantidad" name="cantidad" placeholder="cantidad" class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                 <p> <span formControlName = "precio" name="precio" placeholder="precio"> 3000  </span> <button (click)="agregar()" class="agregar"> Añadir al carrito </button> </p>
+            </li>
+            <li class="abajo">
+                <img src = "/assets/imagenes/leche.jpg" alt = "leche" width = "100px" height = "100px" />
+                <p class = "nombre" formControlName = "nombre" name="nombre" placeholder="nombre"> LECHE </p>
+                <input formControlName = "cantidad" name= "cantidad" placeholder="cantidad" class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                <p> <span formControlName = "precio"  name="precio" placeholder="precio"> 2500  </span> <button (click)="agregar()" class="agregar"> Añadir al carrito </button> </p>
+            </li> 
+         </ul> 
+       </div>
+       <div class="col-3">
+        <ul>
+            <li class="arriba">
+                 <img src = "/assets/imagenes/mortadela.jpg" alt = "mortadela" width = "100px" height = "100px" />
+                 <p class = "nombre" formControlName = "nombre" name="nombre" value="nombre"> MORTADELA </p> [nombre]= "carritosup.nombre"
+                 <input formControlName = "cantidad" name="cantidad" placeholder="cantidad"  class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                 <p> <span formControlName = "precio" name="precio" placeholder="precio"> 5500  </span> <button (click)="agregar()" class="agregar"> Añadir al carrito </button> </p>
+            </li>
+            <li class="abajo">
+                <img src = "/assets/imagenes/frijoles.jpg" alt = "frijoles" width = "100px" height = "100px" />
+                <p class = "nombre" formControlName = "nombre" name="nombre" placeholder="nombre"> FRIJOLES </p>
+                <input formControlName = "cantidad" name="cantidad" placeholder="cantidad"  class="item_Quantity" type="number" min="1" max="10" value="1"/>
+                <p> <span formControlName = "precio" name= "precio" placeholder="precio" >  3200  </span> <button (click)="agregar()" class="agregar"> Añadir al carrito </button> </p>
+           </li> 
+        </ul> 
+       </div>
+      </div>
+
+      
+    </div>
+    <div id="footer">
+
+        <button class="terminar"> Enviar </button>
+
+        <button class="volver"> Cancelar </button>
+
+
+
+       </div>
+ </div>    
+</body>
+</html>      
+        
+
+
+ 
+
+     

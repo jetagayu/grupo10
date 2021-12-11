@@ -1,0 +1,131 @@
+
+
+<title>Formulario Registro</title>
+<app-barrahorizontalnavbar> </app-barrahorizontalnavbar>
+<body>
+  
+   <header>
+    <div class="menu">
+    
+      <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">inicio Secion</a></li>
+            <li><a href="#">Carrito</a></li>
+           
+          </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="form-register">
+ 
+ <form action="" action="post" class="register"  [formGroup]="datosformulario">
+    <h4>Orden a domicilio</h4>
+      
+      
+     <h3 class="depa">Departamento:</h3>
+    <select class="controls" formControlName="meal" name="meal" id="meal" onChange="changecat(this.value);">
+      <option value="" >--Seleccione un departamento</option>
+      
+<option value="Antioquia">	Antioquia	</option>
+<option value="Atlántico">	Atlántico	</option>
+<option value="Bogotá">	Bogotá	</option>
+<option value="Bolívar">	Bolívar	</option>
+<option value="Boyacá">	Boyacá	</option>
+<option value="Caldas">	Caldas	</option>
+<option value="Cauca">	Cauca	</option>
+<option value="Córdoba">	Córdoba	</option>
+<option value="Cundinamarca">	Cundinamarca	</option>
+<option value="Huila">	Huila	</option>
+<option value="Magdalena">	Magdalena	</option>
+<option value="Meta">	Meta	</option>
+<option value="Nariño">	Nariño	</option>
+<option value="NortedeSantander">	Norte de Santander	</option>
+<option value="Quindío">	Quindío	</option>
+<option value="Risaralda">	Risaralda	</option>
+<option value="SanAndrésyProvidencia">	San Andrés y Providencia	</option>
+<option value="Santander">	Santander	</option>
+<option value="Sucre">	Sucre	</option>
+<option value="Tolima">	Tolima	</option>
+<option value="ValledelCauca">	Valle del Cauca	</option>
+
+
+
+
+    </select>
+    
+  
+    <h3 class="ciu">Ciudad:</h3>
+    <select class="ciulis" type="list" formControlName="category"name="category" id="category">
+      <option value="" >--Seleccione una ciudad</option>
+      
+    </select>
+     <h3 class="dire">Direccion:</h3>
+    
+    <select class="direxion" type="list"  formControlName="dire" name="dire" id="dire">
+      <option value="" disabled selected>--Seleccione un Tipo de Via</option>
+      <option >	Anillo	</option>
+      <option >	Autopista 	</option>
+      <option >	Avenida	</option>
+      <option >	Avenida calle	</option>
+      <option >	Avenida carrera	</option>
+      <option >	Calle 	</option>
+      <option >	Carrera	</option>
+      <option >	Circular	</option>
+      <option >	Diagonal	</option>
+      <option >	Transversal	</option>
+      <option >	Zona	</option>
+    </select>
+    
+    
+    <input class="dire1" type="text" formControlName="dire1"name="dire1" id="dire1" >
+    <h3 class="numeral123">#</h3>
+    <input class="dire2" type="text" formControlName="dire2" name="dire2" id="dire2" >
+    <h3 class="linea">-</h3>
+    <input class="dire3" type="text" formControlName="dire3" name="dire3" id="dire3" >
+   
+     <h3 class="barri">Barrio:</h3>
+    <input class="barrio" type="text" formControlName="barriooo" name="barriooo" id="barri" >
+    
+    
+     <h3 class="inm">Tipo de inmueble:</h3>
+      <select class="inmu" type="list" formControlName="inmu" name="inmu" id="inmu">
+      <option value="" disabled selected>--Seleccione un Tipo de Inmueble</option>
+      <option >	Apartamento	</option>
+          <option >	Casa	</option>
+          <option >	Edificio	</option>
+          <option >	Hotel	</option>
+          <option >	Oficina	</option>
+    </select>
+     <input class="inmue" type="text" formControlName="inmue" name="inmue" id="inmue">
+    
+    
+    <h3 class="blo">Bloque o Interior:</h3>
+      <select class="bloq" type="list" formControlName="blo" name="blo" id="blo">
+      <option value="" disabled selected>--Seleccione el Complemento</option>
+      <option >	Manzana	</option>
+          <option >	Zona	</option>
+          <option >	Bloque	</option>
+          <option >	Habitación	</option>
+    </select>
+     <input class="bloqu" type="text" formControlName="bloq"name="bloq" id="inmu">
+    
+    
+    <h3 class="obse">Observaciones:</h3>
+     <input class="obser" type="text" formControlName="obser" name="obser" id="obser">
+
+
+    
+    <button (click)="recibir_datos()"  class="botons" type=button value="Confirmar">Confirmar</button>
+    
+    <h1 class="mensaje" id="mesaje123"></h1>
+    <h1 class="mensajea" id="mesaje123"></h1>
+    <h1 class="mensajeb" id="mesaje123"></h1>
+    <h1 class="mensajec" id="mesaje123"></h1>
+    <h1 class="mensajed" id="mesaje123"></h1>
+    <h1 class="mensajee" id="mesaje123"></h1>
+  </form> 
+  
+
+

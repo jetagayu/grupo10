@@ -1,0 +1,40 @@
+<app-reportes></app-reportes>
+<div class="cuerpo-documento">
+    <div class="contenido">
+        <div class="botones-reportes">
+            <button class="btn-pagos active" (click)="ejecucion_doble_pago()">Reporte Pagos</button>
+            <button class="btn-envios" (click)="ejecucion_doble_envio()">Reporte envios</button>
+        </div>
+        <div class="contenedor-tabla">
+            <table class="table-fill">
+                <thead>
+                    <tr>
+                        <th class="text-left" >Código</th>
+                        <th class="text-left" >Fecha</th>
+                        <th class="text-left" >Hora</th>
+                        <th class="text-left" >Producto</th>
+                        <th class="text-left" >Valor</th>
+                        <th class="text-left" *ngIf="mostrar">Lugar Destino</th>
+                        <th class="text-left columna-borrar">Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody class="table-hover">
+                    <tr *ngFor="let registro of registros">
+                        <td class="text-left">{{ registro.Codigo }}</td>
+                        <td class="text-left">{{ registro.Fecha }}</td>
+                        <td class="text-left">{{ registro.Hora }}</td>
+                        <td class="text-left">{{ registro.Producto }}</td>
+                        <td class="text-left">{{ registro.Valor }}</td>
+                        <td class="text-left" *ngIf="mostrar">{{ registro.Lugar_destino }}</td>
+                        <td class="text-left">
+                            <button type="button" class="btn btn-outline-danger boton-eliminar" (click)="seleccion_codigo(registro)"><i class="bi bi-trash-fill"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                                  </svg></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>    
+</div>

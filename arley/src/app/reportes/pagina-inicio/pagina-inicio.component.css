@@ -1,0 +1,32 @@
+
+.contenido{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(35, 4, 85, 0.397);      
+    min-height: 100%;
+    background-image: url('/../assets/img-inicio.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 5px auto;  
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contenido button{
+    background-image: url('/../assets/btn-fondo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    border:5px solid white;    
+    border-radius: 20px;
+    background-color: #1c5270;
+    width: 400px;
+    height: 80px;
+    margin-top: 25%;
+}
+.contenido button:hover{
+    border:5px solid black; 
+}

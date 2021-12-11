@@ -1,0 +1,459 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #03A9F4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+  
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+  
+  }
+  
+  
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 85px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size:20px;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .form-register {
+    width: 750px;
+    background: #24303c;
+    padding: 390px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position:relative;
+    top: 100%;
+  }
+  
+  .form-register h4 {
+    font-size: 30px;
+    
+    margin-bottom: 20px;
+    position: absolute;
+    top:3%;
+    left:20px;
+  }
+  
+  .form-register h3 {
+    font-size: 22px;
+    padding-top:-10px;
+    margin-bottom: 10px;
+  }
+  .depa{
+    width:700px;
+  position:absolute;
+  top:13%;
+  left:7%
+  }
+  
+  .ciu{
+    width:700px;
+  position:absolute;
+  top:23%;
+  left:7%
+  
+  }
+  
+  .dire{
+    width:700px;
+  position:absolute;
+  top:33%;
+  left:7%
+  
+  }
+  
+  .barri{
+    width:700px;
+  position:absolute;
+  top:47%;
+  left:7%
+  
+  }
+  
+  
+  .inm{
+    width:700px;
+  position:absolute;
+  top:57%;
+  left:7%
+  
+  }
+  
+  .blo{
+    width:700px;
+  position:absolute;
+  top:65%;
+  left:7%
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  .obse{
+    width:700px;
+  position:absolute;
+  top:72%;
+  left:7%
+  
+  }
+  
+  .dire1{
+    width:110px;
+     background: #24303c;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  position:absolute;
+  top:39%;
+  left:35%
+   }
+  
+   .mensajec{
+    color: red;
+    font-size: 12px;
+    width:700px;
+   position:absolute;
+   top:43%;
+   left:35%
+   }
+
+  .numeral123{
+    width:110px;
+  position:absolute;
+  top:39%;
+  left:54%
+  
+  }
+  
+  
+  .linea{
+    width:110px;
+  position:absolute;
+  top:39%;
+  left:78%
+  
+  }
+  
+  .dire2{
+    width:110px;
+     background: #24303c;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  position:absolute;
+  top:39%;
+  left:60%
+  
+  }
+  .mensajed{
+   color: red;
+   font-size: 12px;
+   width:700px;
+   position:absolute;
+   top:43%;
+   left:60%
+   }
+  
+  .obser{
+    width:210px;
+     background: #24303c;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  position:absolute;
+  top:72%;
+  left:35%
+  
+  }
+  
+  
+  .dire3{
+    width:110px;
+    background: #24303c;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  position:absolute;
+  top:39%;
+  left:81%
+  }
+  
+  .mensajee{
+    color: red;
+    font-size: 12px;
+   width:700px;
+   position:absolute;
+   top:43%;
+   left:81%}
+
+  .inmue{
+    width:110px;
+    background: #24303c;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  position:absolute;
+  top:55%;
+  left:81%
+   
+  }
+  
+  .bloqu{
+    width:110px;
+    background: #24303c;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+   position:absolute;
+  top:65%;
+  left:81%
+   
+  }
+  
+  
+  .controls {
+    width: 62%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:12%;
+    left:35%
+  }
+
+  .mensaje{
+    color: red;
+    font-size: 15px;
+       width:700px;
+  position:absolute;
+  top:18%;
+  left:35%
+   
+   
+   }
+   
+  .ciulis{
+    width: 62%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:21%;
+    left:35%
+  
+  }
+  
+  .mensajea{
+    color: red;
+    font-size: 15px;
+       width:700px;
+  position:absolute;
+  top:27%;
+  left:35%
+   
+   
+   }
+
+  .inmu{
+    width: 43%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:54%;
+    left:35%
+  }
+  
+
+
+
+  .bloq{
+    width: 43%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:63%;
+    left:35%
+  }
+  
+  .barrio{
+    width: 62%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:45%;
+    left:35%
+  
+  }
+  
+
+
+
+  .direxion{
+    width: 62%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:30%;
+    left:35%
+  
+  }
+  .mensajeb{
+    color: red;
+    font-size: 15px;
+       width:700px;
+  position:absolute;
+  top:36%;
+  left:35%
+   
+   
+   }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 50%;
+    
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    position: absolute;
+    top:88%;
+    left:25%
+  }
+  
